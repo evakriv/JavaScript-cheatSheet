@@ -1,1 +1,4 @@
 # JavaScript-cheatSheet
+The aim of the project is to build a template for a JavaScript cheatsheet with which I could quickly review javaScript syntax. At the moment the content of the fields is still empty. As my main objective was to learn DOM manipulation, event handling, and interaction between CSS and JavaScript.
+
+My biggest challenge in this project was how to make sure all elements except the one being clicked on get the display:'none' and give space to the clicked element to expand. As javaScript only offers previousElementSibling and nextElementSibling selectors,I was only able to 'hide' the elements closest to the clicked element. I, therefore, decided to try to solve the problem by looping through the element previous- and next- elementSibling as long as there was such an element and its class name was not expand. As only the clicked element should have the class with the name expand.
